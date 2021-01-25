@@ -1,0 +1,425 @@
+body{
+    background-image: url(../images/venirEtudier.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+div#container{
+    opacity: 0.95;
+    width:100%;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+div#content{
+    background-color: ghostwhite;
+    margin: -60px 30px 0px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border-radius: 35px;
+    padding: 25px;
+    margin: 30%  5%;
+}
+.langue{
+  width: 50px;
+  height: auto;
+
+}
+.drapeau{
+    position: absolute;
+    padding-right: 2%;
+    right: 0px;
+    margin-top: 15%;
+}
+
+.flex-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic{
+  min-width: 300px;
+  max-width: 300px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+.pic img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.picture{
+  min-width: 300px;
+  max-width: 300px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+
+#centre{
+  text-align: center;
+}
+
+h2,h3, h4,h5, h6{
+    color: #E71D73;
+    font-size: 30px;
+    font-weight: normal;
+   /* font-family: "Tw center bold"; */
+}
+
+h1{
+    text-align: center;
+    color: #FFFF;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h5{
+    line-height: 1px;
+}
+
+.topbar{
+    font-family: Helvetica Neue Thin;
+    font-size: 15px;
+    position: absolute;
+    text-decoration: underline;
+    padding-right: 30px;
+    right: 0px;
+    padding-top: 140px;
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.topbar_image{
+    text-align: right;
+    position: absolute;
+    right: 40px;
+    padding-top: 25px;
+}
+
+/* menu début */
+#menu ul{
+    margin:0;
+    padding:0;
+    line-height: 60px;
+    z-index:9999;
+}
+
+#menu li{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgba(255,255,255,0.3);
+    font-family: Helvetica Neue Thin;
+}
+
+#menu ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+#menu ul li:hover ul {
+    visibility: visible;
+}
+#menu ul li ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    background: #696969;
+}
+
+#couleur1 li:hover{
+    box-shadow: 0px 0px 10px  #05B8A4;
+}
+#couleur2 li:hover{
+    box-shadow: 0px 0px 10px #E61471;
+}
+#couleur3 li:hover{
+    box-shadow: 0px 0px 10px  #EA8C23;
+}
+#couleur4 li:hover{
+    box-shadow: 0px 0px 10px #C4FF1C ;
+}
+#couleur5 li:hover{
+    box-shadow: 0px 0px 10px #9C4B9D;
+}
+
+.submenu-list a:hover{
+    color:#fff;
+    font-size: 15px;
+}
+
+/* menu fin */
+.puce {
+    list-style: none;
+}
+
+.puce li::before {
+    content: "▪";
+    color: #E61471;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.oblic{
+    max-width:  100%;
+    font-weight: 600;
+    color: dimgrey;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+#lien a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Bas de page */
+/* Responsive Footer */
+footer{margin-top: -16%;
+}
+#back1{background-color:rgb(253, 156, 198);
+}
+#Rejoignez{font-family: Helvetica Neue Thin;
+    padding: 1%;
+    font-size: 15px;
+    margin-top: -13%;
+}
+#Rejoignez img {max-width: 100%;
+    min-width: 2%;
+    max-width: 2%;
+}
+#Contacter{text-align: right;
+    margin-top: -8.5%;
+    margin-right: 18.25%;
+}
+#Formation{margin-left: 2.8%;
+    margin-top: 6.5%;
+    padding: 2.5%;
+    font-family: Helvetica Neue Thin;
+}
+#Internationnal{margin-left: 23%;
+    margin-top: -10.3%;
+    font-family: Helvetica Neue Thin;
+}
+#vie{margin-left: 41%;
+    margin-top:-3.1%;
+    font-family: Helvetica Neue Thin;
+}
+#Entreprise{margin-left: 63%;
+    margin-top: -7.8%;
+    font-family: Helvetica Neue Thin;
+}
+#IUT{margin-left: 85%;
+    margin-top: -4.5%;
+    font-family: Helvetica Neue Thin;
+}
+.taille{font-size: 13px;
+}
+.gras{font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#Souligne a{text-decoration: none;
+    color: black;
+}
+#bot a{text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica Neue Thin;
+}
+#bot img{width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+#Annuaire{margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: -4.5%;
+}
+#Mention{margin-left: 14%;
+    margin-top: 3.5%;
+    margin-bottom: -0.8%;
+}
+ #Contacter{margin-left:28%;
+    margin-top: -1.2%;
+    padding-bottom: 2%;
+}
+#marge{margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+/* Smartphones */
+@media(min-width: 0px) and (max-width: 425px)
+{
+footer{margin-top: -28%;
+}
+#back2{background-color: rgb(255, 231, 235);
+}
+#Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 4%;
+    max-width: 4%;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    padding: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+}
+
+/* Tablettes */
+@media(min-width: 426px) and (max-width: 1249px)
+{
+footer{margin-top: -28%;
+}
+#back2{background-color: rgb(255, 231, 235);
+}
+#Rejoignez{display: inline;
+}
+#Rejoignez img{min-width: 3%;
+    max-width: 3%;
+}
+#Formation{display: inline;
+}
+#Internationnal{display: inline;
+}
+#vie{display: inline;
+}
+#Entreprise{display: inline;
+}
+#IUT{display: inline;
+}
+#bot{display: inline;
+}
+#Annuaire{display: inline;
+}
+#Mention{display: inline;
+}
+#Contacter{display: inline;
+}
+.trait{border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.drapeau{
+  position: absolute;
+  padding-right: 2%;
+  right: 0px;
+  margin-top: 25%;
+}
+}
+
+/* Ordinateurs portables */
+@media(min-width: 1250px) and (max-width: 1388px)
+{
+#Rejoignez{position: absolute;
+    background-color:rgb(253, 156, 198);
+    width: 98%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+    }
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}
+
+/* Ecran */
+
+@media(min-width: 1389px)
+{
+#Rejoignez{position: absolute;
+    background-color:rgb(253, 156, 198);
+    width: 98%;
+}
+#Formation{position: absolute;
+    margin-top: -8%;
+}
+#Internationnal{position: absolute;
+    margin-top: -5.6%;
+}
+#vie{position: absolute;
+    margin-top: -5.6%;
+}
+#Entreprise{position: absolute;
+    margin-top: -5.6%;
+}
+#IUT{position: absolute;
+    margin-top: -5.6%;
+}
+#bot{margin-top: 10%;
+    margin-left: 4%;
+}
+#Annuaire{position: absolute;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+#Mention{position: absolute;
+    margin-top: 8%;
+}
+#Contacter{position: absolute;
+    margin-top: 8%;
+}
+}

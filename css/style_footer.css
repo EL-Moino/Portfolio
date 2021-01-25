@@ -1,0 +1,84 @@
+/* Footer */
+#Contact {
+  text-align: center;
+  font-family: "poppins-regular", sans-serif;
+	padding: 70px 0 50px 0;
+	background-color:  rgba(200, 200, 200, 0.1);
+}
+#Contact p {
+    color: #c7c5ca;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#Contact a.email-btn {
+    color: #fff;
+    background-color: #0078ff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 28px;
+    width: 240px;
+}
+#Contact a.email-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Contact a.email-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Contact a.email-btn:hover span {
+  padding-right: 25px;
+}
+
+#Contact a.email-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#Contact a i {
+	margin-right: 14px;
+}
+
+#complement{
+  line-height: 3.7rem;
+}
+
+.social-icons {
+  margin-top: 50px;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0 16px;
+} 
+.social-icons li a {
+	display: block;
+}
+.social-icons li i {
+  color: #c3c3cb;
+  font-size: 34px;
+  transition: all 0.3s;
+}
+.social-icons li i:hover {
+  transform: scale(1.3);
+}
+.copyright {
+	background-color: #313131;
+	padding: 26px 0;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+.copyright p {
+	margin-bottom: 0;
+}
+
+#droits{color: #0078ff;}
+/* Footer */

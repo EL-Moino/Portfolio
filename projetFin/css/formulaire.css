@@ -1,0 +1,25 @@
+body{
+    background-color: ghostwhite;
+    width: 860px;
+    height: 1024px;
+
+}
+
+h1{
+    text-align: center;
+    color: #E71D73;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "Tw center bold";
+}
+
+.coordonnees {
+    width: 190px;
+    display: block;
+    float: left;
+}
+.complementaire{
+    width: 190px;
+    display: block;
+    float: left;
+}
